@@ -194,7 +194,7 @@ export function ViewCv() {
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 w-full">
 
           <!-- Tarjeta 1 (Ruta de la imagen en public/certs/english.png) -->
-          <div onclick="openCertModal('/certificado.png', 'Core Skills Test')" class="cursor-pointer bg-gray-900/40 border border-white/5 rounded-2xl p-5 relative overflow-hidden group transition hover:border-indigo-500/40 hover:scale-[1.02] duration-300">
+          <div onclick="openCertModal('/certificado.PNG', 'Core Skills Test')" class="cursor-pointer bg-gray-900/40 border border-white/5 rounded-2xl p-5 relative overflow-hidden group transition hover:border-indigo-500/40 hover:scale-[1.02] duration-300">
             <div class="absolute -top-10 -right-10 w-24 h-24 bg-indigo-500/5 rounded-full blur-2xl transition-all group-hover:bg-indigo-500/10"></div>
             <div class="flex justify-between items-start gap-4">
               <div class="space-y-1">
@@ -216,7 +216,7 @@ export function ViewCv() {
           </div>
 
           <!-- Tarjeta 2 (Ruta de la imagen en public/certs/jobready.png) -->
-          <div onclick="openCertModal('/wadwani.png', 'Job Ready: Habilidades para la empleabilidad')" class="cursor-pointer bg-gray-900/40 border border-white/5 rounded-2xl p-5 relative overflow-hidden group transition hover:border-purple-500/40 hover:scale-[1.02] duration-300">
+          <div onclick="openCertModal('/wadwani.PNG', 'Job Ready: Habilidades para la empleabilidad')" class="cursor-pointer bg-gray-900/40 border border-white/5 rounded-2xl p-5 relative overflow-hidden group transition hover:border-purple-500/40 hover:scale-[1.02] duration-300">
             <div class="absolute -top-10 -right-10 w-24 h-24 bg-purple-500/5 rounded-full blur-2xl transition-all group-hover:bg-purple-500/10"></div>
             <div class="flex justify-between items-start gap-4">
               <div class="space-y-1">
@@ -238,7 +238,7 @@ export function ViewCv() {
           </div>
 
           <!-- Tarjeta 3 (Ruta de ejemplo para un tercer certificado) -->
-          <div onclick="openCertModal('/huawey.jpg', 'HCIA-AI v3.5 COURSE INDONESIAN (HUAWEI TALENT ONLINE)')" class="cursor-pointer bg-gray-900/40 border border-white/5 rounded-2xl p-5 relative overflow-hidden group transition hover:border-indigo-500/40 hover:scale-[1.02] duration-300">
+          <div onclick="openCertModal('/huawey.JPG', 'HCIA-AI v3.5 COURSE INDONESIAN (HUAWEI TALENT ONLINE)')" class="cursor-pointer bg-gray-900/40 border border-white/5 rounded-2xl p-5 relative overflow-hidden group transition hover:border-indigo-500/40 hover:scale-[1.02] duration-300">
             <div class="absolute -top-10 -right-10 w-24 h-24 bg-indigo-500/5 rounded-full blur-2xl transition-all group-hover:bg-indigo-500/10"></div>
             <div class="flex justify-between items-start gap-4">
               <div class="space-y-1">
