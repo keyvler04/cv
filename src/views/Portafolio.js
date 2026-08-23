@@ -70,7 +70,7 @@ export function ViewPortafolio() {
             </a>
             <span class="text-gray-700">|</span>
             <button type="button" class="open-demo-btn inline-flex items-center gap-1.5 text-xs font-semibold text-indigo-400 hover:text-indigo-300 transition cursor-pointer" 
-                    data-images="/public/refaccionaria/nota.png, /public/refaccionaria/Inicio_sesion.png, /public/refaccionaria/registro.png, /public/refaccionaria/inicio.png,/public/refaccionaria/categoria.png, /public/refaccionaria/agrego_cat.png, /public/refaccionaria/nuevo_producto.png, /public/refaccionaria/producto.png, /public/refaccionaria/venta.png, /public/refaccionaria/confirmar_venta.png, /public/refaccionaria/venta_realizada.png, /public/refaccionaria/carrito_limpio.png, /public/refaccionaria/historial_venta.png, /public/refaccionaria/cliente.png, /public/refaccionaria/movimientos.png, /public/refaccionaria/detalles_venta.png, /public/refaccionaria/ticket.png">
+                    data-images="/refaccionaria/nota.png, /refaccionaria/Inicio_sesion.png, /refaccionaria/registro.png, /refaccionaria/inicio.png, /refaccionaria/categoria.png, /refaccionaria/agrego_cat.png, /refaccionaria/nuevo_producto.png, /refaccionaria/producto.png, /refaccionaria/venta.png, /refaccionaria/confirmar_venta.png, /refaccionaria/venta_realizada.png, /refaccionaria/carrito_limpio.png, /refaccionaria/historial_venta.png, /refaccionaria/cliente.png, /refaccionaria/movimientos.png, /refaccionaria/detalles_venta.png, /refaccionaria/ticket.png">
               Ver Galeria <span class="transition-transform group-hover:translate-x-0.5">→</span>
             </button>
           </div>
