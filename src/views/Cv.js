@@ -36,7 +36,7 @@ export function ViewCv() {
         </div>
         
         <div class="flex-shrink-0 text-left">
-          <a href="/KEVIN%20EDMAEL%20GARCIA%20MARTINEZ.pdf" download class="inline-flex items-center gap-2 px-5 py-3 text-sm font-semibold tracking-wider text-white bg-white/5 border border-white/10 rounded-xl hover:bg-white/10 hover:text-white transition duration-300 transform hover:-translate-y-0.5 shadow-lg group">
+          <a href="/KEVIN%20EDMAEL%20GARCIA%20MARTINEZ%20(3).pdf" download class="inline-flex items-center gap-2 px-5 py-3 text-sm font-semibold tracking-wider text-white bg-white/5 border border-white/10 rounded-xl hover:bg-white/10 hover:text-white transition duration-300 transform hover:-translate-y-0.5 shadow-lg group">
             <svg class="w-4 h-4 text-purple-400 transition-transform group-hover:translate-y-0.5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3" />
             </svg>
