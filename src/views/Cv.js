@@ -36,17 +36,20 @@ export function ViewCv() {
         </div>
         
         <div class="flex-shrink-0 text-left">
-  <a href="/cv-kevin-garcia.pdf" 
-     download="cv-kevin-garcia.pdf" 
-     target="_blank"
-     rel="noopener noreferrer"
-     class="inline-flex items-center gap-2 px-5 py-3 text-sm font-semibold tracking-wider text-white bg-white/5 border border-white/10 rounded-xl hover:bg-white/10 hover:text-white transition duration-300 transform hover:-translate-y-0.5 shadow-lg group">
-    <svg class="w-4 h-4 text-purple-400 transition-transform group-hover:translate-y-0.5 pointer-events-none" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
-      <path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3" />
-    </svg>
-    Descargar PDF
-  </a>
-</div>
+          <a href="./cv-kevin-garcia.pdf" 
+             download="cv-kevin-garcia.pdf" 
+             target="_blank"
+             rel="noopener noreferrer"
+             data-no-routing="true"
+             onclick="event.stopPropagation()"
+             class="inline-flex items-center gap-2 px-5 py-3 text-sm font-semibold tracking-wider text-white bg-white/5 border border-white/10 rounded-xl hover:bg-white/10 hover:text-white transition duration-300 transform hover:-translate-y-0.5 shadow-lg group">
+            <svg class="w-4 h-4 text-purple-400 transition-transform group-hover:translate-y-0.5 pointer-events-none" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3" />
+            </svg>
+            Descargar PDF
+          </a>
+        </div>
+      </div>
 
       <!-- GRID PRINCIPAL DE 2 COLUMNAS (Experiencia | Educación) -->
       <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
@@ -241,7 +244,6 @@ export function ViewCv() {
           </div>
 
           <!-- Tarjeta 3 -->
-          
           <div onclick="openCertModal('/huawey.jpg', 'HCIA-AI v3.5 COURSE INDONESIAN (HUAWEI TALENT ONLINE)')" class="cursor-pointer bg-gray-900/40 border border-white/5 rounded-2xl p-5 relative overflow-hidden group transition hover:border-indigo-500/40 hover:scale-[1.02] duration-300">
             <div class="absolute -top-10 -right-10 w-24 h-24 bg-indigo-500/5 rounded-full blur-2xl transition-all group-hover:bg-indigo-500/10"></div>
             <div class="flex justify-between items-start gap-4">
