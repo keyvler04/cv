@@ -6,6 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>KEVIN GARCIA</title>
 
+    <!-- Script para silenciar la advertencia de Tailwind CDN en consola -->
+    <script>
+      console.warn = (function(warn) {
+        return function(msg) {
+          if (typeof msg === 'string' && msg.includes('cdn.tailwindcss.com')) return;
+          warn.apply(console, arguments);
+        };
+      })(console.warn);
+    </script>
+
     <!-- CDN de Tailwind restaurado para mantener todo el diseño visual -->
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
