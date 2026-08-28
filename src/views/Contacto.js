@@ -131,6 +131,12 @@ export function ViewContacto() {
             <!-- Div para notificaciones de estado -->
             <div id="form-feedback" class="min-h-[20px]"></div>
 
+
+            <!-- AVISO DE PRIVACIDAD DISCRETO -->
+            <p class="text-[11px] text-gray-500 leading-relaxed">
+              Al enviar este formulario, aceptas que tus datos sean utilizados únicamente para responder a tu mensaje. No comparto tu información con terceros.
+            </p>
+
             <!-- Botón de Envío -->
             <div class="pt-2">
               <button type="submit" class="w-full inline-flex items-center justify-center gap-2 px-5 py-3.5 text-sm font-semibold tracking-wider text-white bg-gradient-to-r from-indigo-600 to-purple-600 rounded-xl hover:opacity-90 transition duration-300 transform hover:-translate-y-0.5 shadow-lg shadow-indigo-500/10">
