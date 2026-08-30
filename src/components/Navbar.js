@@ -7,11 +7,12 @@ export function renderNavbar() {
         <div class="flex h-20 items-center justify-between">
           
           <!-- Logo (Alineado a la izquierda sin posiciones absolutas que lo empalmen) -->
-          <div class="flex shrink-0 items-center">
-            <a href="/index" class="hover:opacity-80 transition duration-300 block">
-              <img src="/keyvlercode.png" alt="logo" class="h-12 w-auto object-contain" width="40" height="40" />
-            </a>
-          </div>
+          <!-- Logo con tarjeta de cristal moderna -->
+            <div class="flex shrink-0 items-center">
+              <a href="/index" class="block rounded-xl border border-white/10 bg-white/5 p-2 shadow-lg backdrop-blur-md transition duration-300 hover:border-cyan-500/40 hover:bg-white/10 hover:shadow-cyan-500/10">
+            <img src="/keyvlercode.png" alt="logo" class="h-10 w-auto object-contain" width="40" height="40" />
+  </a>
+</div>
 
           <!-- Botón Hamburguesa (Mantenido intacto, posicionado a la derecha en móvil) -->
           <div class="flex items-center sm:hidden">
