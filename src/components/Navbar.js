@@ -9,7 +9,7 @@ export function renderNavbar() {
           <!-- Logo (Alineado a la izquierda sin posiciones absolutas que lo empalmen) -->
           <div class="flex shrink-0 items-center">
             <a href="/index" class="hover:opacity-80 transition duration-300 block">
-              <img src="/keyvlercode.png" alt="logo" class="h-12 w-auto object-contain" width="40" height="40" />
+              <img src="/log.png" alt="logo" class="h-12 w-auto object-contain" width="40" height="40" />
             </a>
           </div>
 
